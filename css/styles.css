@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+      width: 100%;
+      max-width: 1024px;
+      margin: 80px auto;
+  }
+  
+  .navigationbar {
+      background-color: gray;
+      top: 0;
+      width: 100%;
+      position: fixed;
+      max-width: 1024px;
+      height: 80px;
+      border: 1px;
+      border-style: solid;
+  }
+  
+  .rows {
+      margin-top: 20px;
+      display: inline-block;
+      width: 100%;
+  }
+  
+  .footer {
+      margin-top: 20px;
+      background-color: gray;
+      width: 100%;
+      height: 200px;
+      position: relative;
+      display: inline-block;
+      border: 1px;
+      border-style: solid;
+  }
+  
+  
+  .half-width{
+      border: 1px;
+      border-style: solid;
+      display: inline-block;
+      width: calc(50% - 10px);
+      height: 120px;
+      background-color: gray;
+  }
+  
+  .half-width:nth-of-type(1){
+      margin-right: 20px;
+  }
+  
+  .third-width{
+      border: 1px;
+      border-style: solid;
+      display: inline-block;
+      width: calc(33.333% - 13.333px);
+      height: 200px;
+      background-color: gray;
+  }
+  
+  .third-width:nth-of-type(1){
+      margin-right: 20px;
+  }
+  
+  .third-width:nth-of-type(2){
+      margin-right: 20px;
+  }
+  
+  
+  .square{
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      background-color: gray;
+      border: 1px;
+      border-style: solid;
+  }
+  
+  .encabezado{
+      text-align: center;
+      line-height: 80px;
+      height: 80px;
+  }
+  
+  
+   
+  /* (1600x900) HD+ Display */
+  @media  screen and (max-width: 480px) {
+      /* insert styles here */
+      .half-width{
+          width: 100%;
+      }
+  
+      .half-width:nth-of-type(2){
+          margin-top: 20px;
+      }
+  
+      .third-width{
+          width: 100%;
+      }
+  
+      .third-width:nth-of-type(2){
+          margin-top: 20px;
+      }
+  
+      .third-width:nth-of-type(3){
+          margin-top: 20px;
+      }
+  
+      .navigationbar {
+          max-width: 480px;
+      }
+  }
+   
+  /* (1920x1080) Full HD Display */
+  @media  screen and (max-width: 720px) {
+      .navigationbar {
+          max-width: 720px;
+      }
+  }
+   
+  

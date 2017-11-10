@@ -12,7 +12,7 @@
   }
   
   .navigationbar {
-      background-color: gray;
+      background-color: #D8D8D8;
       top: 0;
       width: 100%;
       position: fixed;
@@ -30,7 +30,7 @@
   
   .footer {
       margin-top: 20px;
-      background-color: gray;
+      background-color: #D8D8D8;
       width: 100%;
       height: 200px;
       position: relative;
@@ -46,7 +46,7 @@
       display: inline-block;
       width: calc(50% - 10px);
       height: 120px;
-      background-color: gray;
+      background-color: #D8D8D8;
   }
   
   .half-width:nth-of-type(1){
@@ -59,7 +59,7 @@
       display: inline-block;
       width: calc(33.333% - 13.333px);
       height: 200px;
-      background-color: gray;
+      background-color: #D8D8D8;
   }
   
   .third-width:nth-of-type(1){
@@ -78,7 +78,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
-      background-color: gray;
+      background-color: #D8D8D8;
       border: 1px;
       border-style: solid;
   }
@@ -119,11 +119,3 @@
       }
   }
    
-  /* (1920x1080) Full HD Display */
-  @media  screen and (max-width: 720px) {
-      .navigationbar {
-          max-width: 720px;
-      }
-  }
-   
-  

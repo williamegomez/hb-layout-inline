@@ -45,7 +45,7 @@
       border-style: solid;
       display: inline-block;
       width: calc(50% - 10px);
-      height: 120px;
+      height: 300px;
       background-color: #D8D8D8;
   }
   
@@ -58,7 +58,7 @@
       border-style: solid;
       display: inline-block;
       width: calc(33.333% - 13.333px);
-      height: 200px;
+      height: 120px;
       background-color: #D8D8D8;
   }
   
